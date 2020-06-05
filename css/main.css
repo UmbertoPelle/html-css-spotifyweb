@@ -61,13 +61,9 @@ footer{
   margin-left: 10px;
 }
 
-.playlist-flex{
-  display: flex;
-  align-items: center;
-}
-
-.playlist-flex a{
+.crea-playlist i{
   color: #fff;
+  vertical-align: middle;
 }
 
 .playlist ul{
