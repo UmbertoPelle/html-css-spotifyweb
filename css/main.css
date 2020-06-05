@@ -1,0 +1,33 @@
+/* general rules */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  height: calc(100vh - 90px);
+}
+footer{
+  height: 90px;
+  background-color: #24211e;
+}
+
+
+/* main */
+/* left */
+.left-nav{
+  float: left;
+  height: 100%;
+  width: 230px;
+  background-color: black
+}
+
+
+/* center */
+.contenuto{
+  float: left;
+  height: 100%;
+  width: calc(100% - 230px);
+  background-color: green;
+}
+/* footer */
