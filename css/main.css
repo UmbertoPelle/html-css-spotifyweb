@@ -4,12 +4,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 main{
   height: calc(100vh - 90px);
 }
+
 footer{
   height: 90px;
   background-color: #24211e;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 200;
 }
 
 
