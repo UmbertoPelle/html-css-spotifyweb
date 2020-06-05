@@ -206,16 +206,22 @@ main .contenuto p{
 }
 
 
-@media all and (max-width:1100px) {
-  .upgrade{
-    padding-right: 12%;
+@media all and (max-width:800px) {
+
+  .user i{
+    display: block;
+    margin-bottom: 5px;
   }
+
+  .left-nav a, .playlist h3, .user strong , .user hr{
+      display: none;
+  }
+
+  .left-nav{
+    width: 50px;
+  }
+
 }
 
-@media all and (max-width:800px) {
-  .upgrade{
-    padding-right: 24%;
-  }
-}
 
 /* footer */
