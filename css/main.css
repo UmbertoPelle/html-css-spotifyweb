@@ -19,7 +19,61 @@ footer{
   float: left;
   height: 100%;
   width: 230px;
-  background-color: black
+  background-color: black;
+  color: white;
+}
+
+.left-nav a{
+  color: grey;
+  text-decoration: none;
+}
+
+.left-nav img{
+  max-width: 70%;
+}
+
+.profilo{
+  padding: 15px;
+  font-size: 20px;
+}
+
+.profilo:hover{
+  border-left: solid 1px green;
+}
+
+.playlist{
+  padding: 15px;
+  font-size: 20px;
+}
+
+.playlist h3{
+  margin-bottom: 15px;
+}
+
+.playlist i{
+  font-size: 40px;
+}
+
+.playlist span{
+  color: grey;
+  margin-left: 10px;
+}
+
+.playlist-flex{
+  display: flex;
+  align-items: center;
+}
+
+.playlist-flex a{
+  color: #fff;
+}
+
+.playlist ul{
+  list-style-type: none;
+}
+
+.playlist ul li{
+  margin: 7px 0;
 }
 
 
