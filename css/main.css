@@ -81,11 +81,8 @@ footer{
 
 .user{
   width: 90%;
-  height: 35%;
   margin: 0 5%;
   font-size: 18px;
-  display: flex;
-  flex-direction: column-reverse;
 }
 
 .user hr{
