@@ -93,6 +93,27 @@ footer{
   float: left;
   height: 100%;
   width: calc(100% - 230px);
-  background-color: green;
+  background-color: #1b1b31;
+}
+
+.upgrade{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 230px;
+  width: 88%;
+  height:90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.upgrade a{
+  color: #fff;
+  border: solid 2px ;
+  border-radius: 30px;
+  margin-right: 20px;
+  padding: 18px;
+  text-decoration: none;
 }
 /* footer */
