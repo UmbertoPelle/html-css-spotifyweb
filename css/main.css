@@ -91,6 +91,7 @@ footer{
   width: calc(100% - 230px);
   background-color: #1b1b31;
   color: #fff;
+  overflow-y: auto;
 }
 
 .contenuto h2{
@@ -144,11 +145,13 @@ footer{
   width: 90%;
   margin: 0 2%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .album{
   width: calc(100% / 6);
   padding: 1%;
+  min-width: 200px;
 }
 
 .album img {
