@@ -112,4 +112,23 @@ footer{
   padding: 18px;
   text-decoration: none;
 }
+
+.tips{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.tips li{
+  display: inline-block;
+}
+
+.tips li a{
+  color: #bfbfbf;
+  text-decoration: none;
+  margin-right: 7px;
+}
+
+.tips li a:hover{
+  border-bottom: solid 1px green;
+}
 /* footer */
