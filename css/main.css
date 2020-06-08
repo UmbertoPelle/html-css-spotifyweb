@@ -265,6 +265,10 @@ footer .anteprima img{
   min-width: 50px;
 }
 
+footer .anteprima #title{
+  width: 50%;
+}
+
 footer .anteprima p{
   color: grey;
 }
