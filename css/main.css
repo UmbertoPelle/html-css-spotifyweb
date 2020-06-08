@@ -57,7 +57,7 @@ footer{
 }
 
 .profilo:hover{
-  border-left: solid 1px green;
+  border-left: solid 2px green;
 }
 
 .profilo:hover a{
@@ -91,13 +91,13 @@ footer{
   color: #fff;
 }
 
-.playlist ul{
+.left-nav .playlist ul{
   list-style-type: none;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.playlist ul li{
+.left-nav .playlist ul li{
   margin: 7px 0;
 }
 
@@ -243,6 +243,10 @@ main .contenuto p{
   margin: 0;
   font-size: 15px;
   padding-left: 0;
+}
+
+.circle {
+  border-radius: 50%;
 }
 
 /* footer */
