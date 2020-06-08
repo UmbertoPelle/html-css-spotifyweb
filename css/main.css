@@ -28,6 +28,9 @@ footer{
   width: 230px;
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .left-nav a{
@@ -83,6 +86,7 @@ footer{
   width: 90%;
   margin: 0 5%;
   font-size: 18px;
+  padding: 15px 0;
 }
 
 .user hr{
@@ -221,6 +225,14 @@ main .contenuto p{
     width: 50px;
   }
 
+  .upgrade{
+    left: 50px;
+    width: 69%;
+  }
+
+  footer{
+    width: 76%;
+  }
 }
 
 
