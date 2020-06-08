@@ -33,7 +33,7 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow: hidden;
+  overflow-y:hidden;
 }
 
 .left-nav a{
@@ -95,6 +95,7 @@ footer{
   list-style-type: none;
   overflow-y: auto;
   overflow-x: hidden;
+  max-height: 200px
 }
 
 .left-nav .playlist ul li{
