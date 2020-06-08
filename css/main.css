@@ -310,24 +310,37 @@ footer .play>div{
 footer .barr{
   display: inline-block;
   width: 40%;
-  height: 3px;
+  height: 5px;
   background-color: grey;
   margin: 0 10px;
   margin-bottom: 3px;
   position: relative;
+  border-radius: 10px;
 }
 
 footer .barr-content{
   position: absolute;
   top: 0;
   left: 0;
-  height: 3px;
+  height: 5px;
   width: 20%;
   background-color: #fff;
+  border-radius: 10px;
 }
 
-footer .barr:hover .bar-content{
+footer .barr:hover .barr-content{
   background-color: lightgreen;
+}
+
+footer .play .fa-circle{
+  position: absolute;
+  top: -7px;
+  left:85px;
+  display: none;
+}
+
+footer .barr:hover .fa-circle{
+  display: block;
 }
 
 /* parte destra del footer */
@@ -339,13 +352,23 @@ footer .barr:hover .bar-content{
 }
 
 .volume i{
-  margin:10px;
+  margin:0 7%;
 }
 
 .volume i:hover{
   transform: scale(1.3);
 }
 
+.volume #icon{
+  width: 50%;
+}
+
+footer .volume .fa-circle{
+  position: absolute;
+  top: -5px;
+  left:10px;
+  display: none;
+}
 
 /* media qurey */
 @media all and (max-width:800px) {
@@ -386,6 +409,3 @@ footer .barr:hover .bar-content{
     width: 76%;
   }
 }
-
-
-/* footer */
