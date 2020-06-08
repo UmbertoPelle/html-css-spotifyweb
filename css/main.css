@@ -184,14 +184,24 @@ main .contenuto p{
   display: inline-block;
 }
 
+.tips li hr{
+  width: 30%;
+  margin: auto;
+  color: lightgreen;
+  opacity: 0;
+}
+
 .tips li a{
   color: #bfbfbf;
   text-decoration: none;
-  margin-right: 20px;
+  padding: 0 10px;
 }
 
-.tips li a:hover{
-  border-bottom: solid 1px green;
+.tips li:hover hr{
+  opacity: 1;
+}
+
+.tips li:hover a{
   color: #fff;
 }
 
