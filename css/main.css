@@ -257,7 +257,7 @@ footer .play{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 60%;
 }
 
 footer .play i {
@@ -303,12 +303,11 @@ footer .barr-content{
 .volume{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 15%;
 }
 
 .volume i{
-  margin-right: 15px;
+  margin:10px;
 }
 
 .volume i:hover{
