@@ -249,6 +249,7 @@ footer .play{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 70%;
 }
 
 footer .play i {
@@ -266,11 +267,13 @@ footer .play .fa-play-circle{
 
 footer .play>div{
   margin: 5px 0;
+  width: 100%;
+  text-align: center;
 }
 
 footer .barr{
   display: inline-block;
-  width: 600px;
+  width: 40%;
   height: 3px;
   background-color: grey;
   margin: 0 10px;
@@ -283,7 +286,7 @@ footer .barr-content{
   top: 0;
   left: 0;
   height: 3px;
-  width: 200px;
+  width: 20%;
   background-color: #fff;
 }
 
