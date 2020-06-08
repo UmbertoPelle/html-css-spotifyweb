@@ -447,3 +447,13 @@ footer .volume .fa-circle{
     display: none;
   }
 }
+
+@media screen and (max-height:500px) {
+  .contenuto .upgrade{
+    display: none;
+  }
+
+  .contenuto .tips{
+    margin: 10px;
+  }
+}
