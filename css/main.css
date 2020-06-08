@@ -40,6 +40,12 @@ footer{
 
 .left-nav img{
   max-width: 70%;
+  display: block;
+}
+
+.left-nav #logoxs{
+  display: none;
+  padding: 5%;
 }
 
 .profilo{
@@ -223,6 +229,20 @@ main .contenuto p{
 
   .left-nav{
     width: 50px;
+  }
+
+  .left-nav img{
+    display: none;
+  }
+
+  .left-nav #logoxs{
+    display: block;
+  }
+
+  .left-nav .user i{
+    padding-left: 25%;
+    padding-bottom: 3%;
+    transform: scale(1.3);
   }
 
   .upgrade{
