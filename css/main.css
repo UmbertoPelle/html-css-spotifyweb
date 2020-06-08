@@ -371,7 +371,7 @@ footer .volume .fa-circle{
 }
 
 /* media qurey */
-@media all and (max-width:800px) {
+@media all and (max-width:770px) {
 
   .user i{
     display: block;
@@ -406,6 +406,10 @@ footer .volume .fa-circle{
 
   .contenuto{
     width: calc(100% - 50px);
+  }
+
+  .contenuto .tips li{
+    margin-bottom: 10px;
   }
 
   footer .anteprima{
