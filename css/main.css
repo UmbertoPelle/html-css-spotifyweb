@@ -152,8 +152,7 @@ main .contenuto p{
   position: fixed;
   z-index: 2;
   top: 0;
-  left: 230px;
-  width: 88%;
+  width: calc(100% - 230px);
   height:90px;
   display: flex;
   justify-content: flex-end;
@@ -254,11 +253,12 @@ footer .anteprima{
   display: flex;
   justify-content: space-between;
   align-items:center;
-  width: 230px;
+  width: 15%;
 }
 
 footer .anteprima img{
   width: 20%;
+  min-width: 50px;
 }
 
 footer .anteprima p{
@@ -401,11 +401,22 @@ footer .volume .fa-circle{
   }
 
   .upgrade{
-    left: 50px;
-    width: 69%;
+    width: calc(100% - 50px);
   }
 
-  footer{
-    width: 76%;
+  .contenuto{
+    width: calc(100% - 50px);
+  }
+
+  footer .anteprima{
+    width: 5%;
+  }
+
+  footer .volume{
+    width: 25%;
+  }
+
+  footer .anteprima div{
+    display: none;
   }
 }
