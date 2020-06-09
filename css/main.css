@@ -161,7 +161,6 @@ main .contenuto p{
   justify-content: flex-end;
   align-items: center;
   padding-right: 4%;
-  opacity: 1;
 }
 
 .upgrade a{
@@ -469,15 +468,6 @@ footer .volume .fa-circle{
   .contenuto .upgrade{
     animation-name: visible;
     animation-duration: 2s;
-  }
-
-  .contenuto .upgrade{
-    opacity: 1;
-  }
-
-
-  .contenuto .tips{
-    margin: 90px;
   }
 
 }
