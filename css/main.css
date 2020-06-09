@@ -180,6 +180,8 @@ main .contenuto p{
 .tips{
   margin-top: 100px;
   text-align: center;
+  animation-name: margintop;
+  animation-duration: 2s;
 }
 
 .tips li{
@@ -454,6 +456,12 @@ footer .volume .fa-circle{
 @media screen and (max-height:500px) {
 
   .contenuto .upgrade{
+    animation-name: hidden;
+    animation-duration: 2s;
+    height: 0;
+  }
+
+  .upgrade a{
     display: none;
   }
 

@@ -23,3 +23,23 @@
     opacity: 1;
   }
 }
+
+@keyframes hidden {
+  from{
+    height: 90px;
+  }
+
+  to{
+    height:0;
+  }
+}
+
+@keyframes margintop {
+  from{
+    margin-top: 5px;
+  }
+
+  to{
+    margin-top: 100px;
+  }
+}
