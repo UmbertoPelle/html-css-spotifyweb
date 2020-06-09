@@ -246,20 +246,6 @@ main .contenuto p{
   display: block;
 }
 
-.album-img:hover .layhover i{
-  animation-name: rotate;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-  animation-direction: reverse;
-}
-
-@keyframes rotate {
-  0%{
-    transform: rotate(1turn);
-  }
-}
-
 .album h4{
   text-align: center;
   padding: 10px 5%;
@@ -313,29 +299,6 @@ footer .anteprima i:hover{
   color: #fff;
 }
 
-footer .anteprima img{
-  animation-name: zoom;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-}
-
-@keyframes zoom {
-  0%{
-    transform: scale(1.5);
-  }
-
-  50%{
-    transform: scale(3);
-    margin-left:100px;
-    margin-bottom:100px;
-  }
-
-  100%{
-    margin-left:0px;
-    margin-bottom:0px;
-  }
-}
 
 /* parte centrale del footer */
 
