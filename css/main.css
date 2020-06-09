@@ -95,7 +95,7 @@ footer{
   list-style-type: none;
   overflow-y: auto;
   overflow-x: hidden;
-  height: 200px;
+  height: calc(100vh - 400px);
 }
 
 .left-nav .playlist ul li{
