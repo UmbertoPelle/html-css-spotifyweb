@@ -12,26 +12,26 @@
   }
 }
 
-footer .anteprima img{
-  animation-name: zoom;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
+@keyframes hidden {
+  from{
+    height: 90px;
+    opacity: 1;
+  }
+
+  to{
+    height: 0px;
+    opacity: 0;
+  }
 }
 
-@keyframes zoom {
-  0%{
-    transform: scale(1.5);
+@keyframes visible {
+  from{
+    height: 0;
+    opacity: 0;
   }
 
-  50%{
-    transform: scale(3);
-    margin-left:100px;
-    margin-bottom:100px;
-  }
-
-  100%{
-    margin-left:0px;
-    margin-bottom:0px;
+  to{
+    height: 90px;
+    opacity: 1;
   }
 }

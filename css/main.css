@@ -161,6 +161,7 @@ main .contenuto p{
   justify-content: flex-end;
   align-items: center;
   padding-right: 4%;
+  opacity: 1;
 }
 
 .upgrade a{
@@ -452,11 +453,36 @@ footer .volume .fa-circle{
 }
 
 @media screen and (max-height:500px) {
+
   .contenuto .upgrade{
-    display: none;
+    animation-name: hidden;
+    animation-duration: 2s;
   }
+
+  .contenuto .upgrade{
+    opacity: 0;
+  }
+
 
   .contenuto .tips{
     margin: 10px;
   }
+}
+
+@media screen and (min-height:501px){
+
+  .contenuto .upgrade{
+    animation-name: visible;
+    animation-duration: 2s;
+  }
+
+  .contenuto .upgrade{
+    opacity: 1;
+  }
+
+
+  .contenuto .tips{
+    margin: 90px;
+  }
+
 }
