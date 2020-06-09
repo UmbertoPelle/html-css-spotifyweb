@@ -12,18 +12,6 @@
   }
 }
 
-@keyframes hidden {
-  from{
-    height: 90px;
-    opacity: 1;
-  }
-
-  to{
-    height: 0px;
-    opacity: 0;
-  }
-}
-
 @keyframes visible {
   from{
     height: 0;

@@ -455,12 +455,7 @@ footer .volume .fa-circle{
 @media screen and (max-height:500px) {
 
   .contenuto .upgrade{
-    animation-name: hidden;
-    animation-duration: 2s;
-  }
-
-  .contenuto .upgrade{
-    opacity: 0;
+    display: none;
   }
 
 
