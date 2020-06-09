@@ -304,7 +304,7 @@ footer .play{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 50%;
 }
 
 footer .play i {
@@ -354,7 +354,7 @@ footer .barr:hover .barr-content{
 footer .play .fa-circle{
   position: absolute;
   top: -7px;
-  left:85px;
+  left:20%;
   display: none;
 }
 
@@ -371,11 +371,11 @@ footer .play .fas.fa-redo-alt{
 .volume{
   display: flex;
   align-items: center;
-  width: 15%;
+  width: 20%;
 }
 
 .volume i{
-  margin:0 7%;
+  margin:7%;
 }
 
 .volume i:hover{
@@ -388,7 +388,7 @@ footer .play .fas.fa-redo-alt{
 
 footer .volume .fa-circle{
   position: absolute;
-  top: -5px;
+  top: -15px;
   left:10px;
   display: none;
 }
