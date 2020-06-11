@@ -486,6 +486,10 @@ footer .volume .fa-circle{
   .contenuto .tips{
     margin: 10px;
   }
+
+  .contenuto .tips{
+    animation: sali 2s;
+  }
 }
 
 @media screen and (min-height:501px){
