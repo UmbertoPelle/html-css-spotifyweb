@@ -209,6 +209,14 @@ main .contenuto p{
   color: #fff;
 }
 
+.tips li:first-child a{
+  color: #fff
+}
+
+.tips li:first-child hr{
+  opacity: 1;
+}
+
 /* riga album */
 .row-album{
   color: #fff;
