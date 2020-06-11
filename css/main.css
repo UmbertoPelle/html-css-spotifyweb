@@ -408,6 +408,17 @@ footer .volume .fa-circle{
 }
 
 /* media qurey */
+
+@media all and (max-width:1300px) {
+  footer .anteprima{
+    width: 25%
+  }
+
+  footer .play{
+    width: 40%;
+  }
+}
+
 @media all and (max-width:770px) {
 
   .user i{
@@ -450,16 +461,13 @@ footer .volume .fa-circle{
   }
 
   footer .anteprima{
-    width: 5%;
+    width: 30%;
   }
 
   footer .volume{
     width: 25%;
   }
 
-  footer .anteprima div{
-    display: none;
-  }
 }
 
 @media screen and (max-height:500px) {
